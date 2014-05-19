@@ -1,0 +1,65 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/XilinxProject/CPU/sccpu_isim_beh.exe -prj D:/XilinxProject/CPU/sccpu_beh.prj work.sccpu work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/XilinxProject/CPU/mux2x32.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/cla32.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/shift.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/mux4x32.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/diff5.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/diff4.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/diff2.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/diff1.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/dff32.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/addsub32.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/regfile.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/next_pc.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/mux2x5.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/IP_ROM.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/IP_RAM.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/expand.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/diff_m2w.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/diff_e2m.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/diff_d2e.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/dffinst.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/dffd.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/cu.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/alu.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/sccpu_cpu.v" into library work
+Analyzing Verilog file "D:/XilinxProject/CPU/sccpu.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IP_ROM
+Compiling module dffinst
+Compiling module mux4x32
+Compiling module next_pc
+Compiling module cu
+Compiling module mux2x5
+Compiling module mux2x32
+Compiling module dffd
+Compiling module regfile
+Compiling module expand
+Compiling module dff1
+Compiling module dff4
+Compiling module dff5
+Compiling module dff32
+Compiling module dff2
+Compiling module diff_d2e
+Compiling module shift
+Compiling module cla32
+Compiling module addsub32
+Compiling module alu
+Compiling module diff_e2m
+Compiling module IP_RAM
+Compiling module diff_m2w
+Compiling module sccpu_cpu
+Compiling module sccpu
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 19 sub-compilation(s) to finish...
+Compiled 26 Verilog Units
+Built simulation executable D:/XilinxProject/CPU/sccpu_isim_beh.exe
+Fuse Memory Usage: 31448 KB
+Fuse CPU Usage: 1575 ms

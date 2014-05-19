@@ -1,0 +1,7 @@
+verilog isim_temp "diff5.v"
+verilog isim_temp "diff4.v"
+verilog isim_temp "diff2.v"
+verilog isim_temp "diff1.v"
+verilog isim_temp "dff32.v"
+verilog isim_temp "diff_d2e.v"
+verilog isim_temp "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,48 @@
+ISim log file
+Running: D:\XilinxProject\CPU\sccpu_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/XilinxProject/CPU/sccpu_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 500000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 0 ps :  in File "D:/XilinxProject/CPU/sccpu_cpu.v" Line 137 
+# run 0.10us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# restart
+# run 0.30us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 0 ps :  in File "D:/XilinxProject/CPU/sccpu_cpu.v" Line 137 
+# run 0.30us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us
+# run 0.20us

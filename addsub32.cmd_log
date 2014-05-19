@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/XilinxProject/CPU/addsub32.xst" -ofn "D:/XilinxProject/CPU/addsub32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 addsub32.ngc addsub32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o addsub32_map.ncd addsub32.ngd addsub32.pcf 
+par -w -intstyle ise -ol high -mt off addsub32_map.ncd addsub32.ncd addsub32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml addsub32.twx addsub32.ncd -o addsub32.twr addsub32.pcf 
